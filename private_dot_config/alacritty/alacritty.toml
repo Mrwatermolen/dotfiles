@@ -25,4 +25,4 @@ family = "MesloLGS Nerd Font"
 program = "/usr/bin/zsh"
 
 [window]
-opacity = 0.96
+opacity = 0.92
