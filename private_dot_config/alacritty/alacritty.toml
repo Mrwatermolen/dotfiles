@@ -1,19 +1,15 @@
+# Import
+import = [
+    "~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"
+]
+
 # General
 working_directory = "None"
-
-[colors.normal]
-black = "#21222c"
-blue = "#bd93f9"
-cyan = "#8be9fd"
-green = "#50fa7b"
-magenta = "#ff79c6"
-red = "#ff5555"
-white = "#f8f8f2"
-yellow = "#f1fa8c"
-
-[colors.primary]
-background = "#282a36"
-foreground = "#f8f8f2"
+#[shell]
+#program = "/usr/local/bin/tmux"
+#args=["new", "-s", "main", "-n", "main_window"]
+[env]
+TERM = "xterm-256color"
 
 [font]
 size = 12
@@ -23,3 +19,6 @@ family = "MesloLGS Nerd Font"
 
 [window]
 opacity = 0.96
+# blur = true
+# decorations = "None"
+# startup_mode = "Fullscreen"
