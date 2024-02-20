@@ -125,6 +125,8 @@ if [[ "$(uname)" == "Darwin" ]]; then
 fi
 
 export EDITOR="nvim"
+# Linux School
+export PATH="$PATH:/opt/nvim-linux64/bin"
 
 #===========================Env End===========================#
 
