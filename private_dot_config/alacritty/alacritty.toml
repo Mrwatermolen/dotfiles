@@ -22,3 +22,5 @@ opacity = 0.96
 # blur = true
 # decorations = "None"
 # startup_mode = "Fullscreen"
+option_as_alt = "OnlyLeft" # Mac-only
+
